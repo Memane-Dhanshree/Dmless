@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DmLess – Recruiter Dashboard
 
 A production-ready React frontend for the DmLess SaaS recruiter management platform. Recruiters can manage jobs (Internships / Full-Time), hackathons, referrals, talent pool, and analytics.
@@ -44,3 +45,7 @@ npm run preview
 - **Profile**: Name, Email (read-only), Phone, Change Password (current, new, confirm) with validation.
 
 All dynamic data is driven by placeholder data and context; replace with real API calls as needed.
+=======
+# Dmless
+Dmless Recruiter Dashboard (Frontend)
+>>>>>>> 4bd02b340b63a6e9f32d860031cc3b3a4aeb6dc9
