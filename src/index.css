@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-pastel-yellow/30 text-gray-800 font-sans antialiased;
+  }
+}
+
+/* Accessible focus styles */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-dmless-primary;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-pastel-blue/30 rounded;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-pastel-blueDark rounded;
+}
